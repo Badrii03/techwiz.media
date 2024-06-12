@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>TechWiz.Media</title>
+  <meta name="title" content="TechWiz.Media">
+  <meta name="description" content="This is a website of TechWiz.Media">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/logos/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/logos/favicon-16x16.png">
+  <link rel="icon" href="./assets/logos/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/logos/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="./assets/logos/site.webmanifest">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-01.webp">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-02.png">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-03.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#hero" class="logo">
+        <img src="./assets/logos/android-chrome-512x512.png" width="74" height="24" alt="TechWiz.Media home"
+          class="logo-light">
+
+        <img src="./assets/logos/android-chrome-512x512.png" width="74" height="24" alt="TechWiz.Media home"
+          class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#hero" class="logo">
+           <img src="./assets/logos/android-chrome-512x512.png" width="74" height="24" alt="TechWiz.Media">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blogs</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:techwiz.mediallp@gmail.com" class="contact-link">techwiz.mediallp@gmail.com</a>
+
+          <a href="tel:+916362218936" class="contact-link">+91 6362218936</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="hero" class="section hero has-bg-image" aria-label="Home"
+        style="background-image: url('./assets/images/hello.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+
+            <p class="hero-text">
+              Transformative strategies and cutting-edge tools tailored for startups and growing businesses.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Explore Now</a>
+
+              <a href="mailto:techwiz.mediallp@gmail.com" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/11.webp" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/ppt.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                  </div>
+
+                </li>
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/deal.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/shake.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="megaphone" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Digital Marketing</h3>
+
+                <p class="card-text">
+                  From SEO to social media advertising, We offer comprehensive digital marketing services designed to 
+                  elevate your business online presence and enhance its digital visibility.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="code" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Software Development</h3>
+
+                <p class="card-text">
+                  We offer professional software development services, providing comprehensive solutions to meet your business and project requirements transforming your vision into reality.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="business" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Fintech Solutions</h3>
+
+                <p class="card-text">
+                  Streamline financial processes, offering efficiency, convenience in managing
+                  transactions and investments to enhance financial services, from banking to investment management.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">24/7 Support</h3>
+
+                <p class="card-text">
+                  Techwiz provides professional 24/7 support for all services, including fintech, software development,
+                  and digital marketing, ensuring uninterrupted assistance for your business needs.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/hero-slide-03.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h4 class="h4 section-title">
+              Techwiz is a service-based startup offering a comprehensive suite of solutions. With a commitment to professionalism and excellence, we cater to diverse client needs, 
+              delivering innovative and tailored services to propel businesses forward in the digital landscape.
+            </h4>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Understand Your Vision</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Begin your journey with a free consultation where we listen to your goals, challenges, and needs. This phase is crucial for laying the foundation of a tailored 
+                    digital marketing and software strategy that aligns with your unique business objectives.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Plan Your Success</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Leveraging the insights gained during discovery, our experts craft a comprehensive, data-driven strategy. Whether it's enhancing your digital presence or 
+                    developing custom software, we design a roadmap that guides you to measurable results.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Execute with Precision</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    With the strategy set, our skilled teams get to work. We manage everything from setting up campaigns to coding and testing software solutions, 
+                    ensuring each step is performed with precision and tailored to enhance user engagement and operational efficiency.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Refine and Grow</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Post-launch, we continuously monitor performance and gather feedback to optimize processes and outputs. This iterative improvement ensures 
+                    your digital marketing efforts and software solutions evolve with your business, keeping you ahead in a competitive landscape.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section id="service" class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              Software Development
+            </h2>
+
+            <p class="section-text">
+              Techwiz offers comprehensive software development services encompassing design, development, rigorous testing and 
+              seamless deployment, ensuring the delivery of robust and efficient solutions tailored to your requirements.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   TechWiz.media excels in creating custom software designs to meet diverse client needs.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   Streamlined development processes to bring innovative solutions 
+                   to life efficiently.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Top-notch quality through rigorous testing protocols for flawless 
+                    software performance.
+
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   Swiftly deploys robust software solutions for seamless integration and optimal performance.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="div">
+            <figure class="feature-banner">
+              <img src="./assets/images/try.jpg" width="800" height="521" loading="lazy" alt="feature banner" class="w-100">
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <div class="div">
+            <figure class="feature-banner">
+              <img src="./assets/images/assset2.jpg" width="800" height="531" loading="lazy" alt="feature banner" class="w-100">
+            </figure>
+          </div>
+
+          <div class="feature-content">
+
+            <h2 class="h2 section-title">
+              Digital Marketing
+            </h2>
+
+            <p class="section-text">
+              Techwiz.media offers comprehensive digital marketing services tailored to elevate your 
+              brand's online presence and drive meaningful engagement.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    SEO service: Optimizing your online presence for higher search engine visibility and organic traffic.
+
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Social media marketing: Leveraging platforms to connect, engage, and promote your brand effectively.
+
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Performance marketing: Driving measurable results through targeted campaigns and data-driven strategies.
+
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Content marketing: Creating valuable, relevant content to attract and engage your target audience, driving profitable customer action.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+          
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg1.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">2024</span>
+
+                <spna class="span">Year</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">10+</span>
+
+                <spna class="span">Completed Projects</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">6+</span>
+
+                <spna class="span">Satisfied Clients</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">4.3⭐</span>
+
+                <spna class="span">Average Rating (5)</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section id="blog" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Blogs</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome blogs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 100%; --height: 100%;" >
+                  <img src="./assets/images/blog-01.jpg" width="100%" height="100%" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Unlocking Potential: The Power of Software Development Services</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Transformative software solutions tailored for efficiency and innovation. Our seasoned team crafts bespoke web and mobile applications, exceeding expectations with quality and scalability. Dive into our blog for insights on limitless software possibilities.
+                  </p>
+                  <a href="#blog" class="btn-text">
+                    <span class="span">Learn More</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                  
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 May 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Software Development</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 100%; --height: 100%;">
+                  <img src="./assets/images/blog-02.jpg" width="100%" height="100%" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Unleashing Success: The Power of Digital Marketing Services</a>
+                  </h3>
+
+                  <p class="card-text">
+                    We use smart social media campaigns and SEO strategies to get you the best results and connect with your audience. Check out our blog for tips and real stories that show how digital marketing can really change things for you.
+
+
+
+
+
+
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">19 May 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Digital Marketing</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 100%; --height: 100%;">
+                  <img src="./assets/images/blog-03.jpg" width="100%" height="100%" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Revolutionizing Finance: The Fintech Advantage</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Discover cutting-edge fintech solutions revolutionizing the financial landscape. Our blog dives deep into the latest trends, strategies, and success stories shaping the future of finance. Explore how fintech is driving innovation and transforming the way we manage money.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">24 May 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Fintech Sol</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Get Quote</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">  #TECHWIZ.MEDIA<br>Catalyzing business growth through <br>comprehensive digital marketing strategies  <br> and cutting-edge software development.
+         
+        </a>
+      
+        
+
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Connect with us</p>
+        </li>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.instagram.com/techwiz.media?igsh=amtmeHVwMmZieWp2" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>  
+            </a>
+            
+          </li>
+
+          <li>
+            <a href="mailto:techwiz.mediallp@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://chat.whatsapp.com/H7tu7vwkMYfATGM904Nyxw" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>           
+            </a>
+          </li>
+
+        </ul>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            6th sector HSR layout, Bengaluru, Karnataka
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:techwiz.mediallp@gmail.com" class="footer-link">techwiz.mediallp@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+916362218936" class="footer-link">+91 6362218936</a>
+        </li>
+
+      </ul>
+
+      
+
+      <!-- <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div> -->
+      
+    </div>
+    
+  </footer>
+
+  <p class="footer-text">
+  &copy; 2024 Techwiz.Media by Eagle Tech innovations LLP All rights reserved.
+  </p>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
